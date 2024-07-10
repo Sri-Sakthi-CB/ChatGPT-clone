@@ -11,8 +11,7 @@
 - **Preset Queries:** The sidebar includes preset queries to quickly get responses on common questions.
 - **Scrollable Chat History:** The chat area allows users to scroll through their conversation history.
 - **Responsive Design:** The application is designed to be responsive and works well on various screen sizes.
-
-## Usage
+- 
 
 ### Main Components
 
@@ -31,6 +30,48 @@
 4. **Footer**
    - Contains the input field and send button for user messages.
    - Displays a disclaimer about the accuracy of the chatbot responses.
+
+## Usage
+
+### Prerequisites
+
+Make sure you have the following installed on your machine:
+- [Node.js](https://nodejs.org/) (v16 or higher)
+- [npm](https://www.npmjs.com/get-npm) (v6 or higher)
+
+### Installation
+
+1. **Clone the repository:**
+
+    ```sh
+    git clone https://github.com/Sri-Sakthi-CB/ChatGPT-clone.git
+    cd ChatGPT-clone
+    ```
+
+2. **Install dependencies:**
+
+    ```sh
+    npm install
+    ```
+
+3. **Set up environment variables:**
+
+    Create a `.env` file in the root of the project and add your OpenAI API key:
+
+    ```env
+    REACT_APP_OPENAI_API_KEY = sk-your_actual_api_key_here
+    ```
+
+### Running the Application
+
+1. **Start the development server:**
+
+    ```sh
+    npm start
+    ```
+
+    This will start the app and open it in your default web browser. If it doesn't, you can manually open [http://localhost:8000](http://localhost:8000) in your browser.
+
 
 ### Core Functions
 
