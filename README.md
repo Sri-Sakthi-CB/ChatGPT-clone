@@ -11,7 +11,7 @@
 - **Preset Queries:** The sidebar includes preset queries to quickly get responses on common questions.
 - **Scrollable Chat History:** The chat area allows users to scroll through their conversation history.
 - **Responsive Design:** The application is designed to be responsive and works well on various screen sizes.
-- 
+
 
 ### Main Components
 
